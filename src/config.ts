@@ -7,31 +7,31 @@ import { TbBrandNextjs } from 'react-icons/tb';
 
 export default {
     'github': {
-        'username': 'romanizm'
+        'username': 'Mustifix'
     },
     'discord': {
-        'id': '341585045397438464'
+        'id': '1016336509965705296'
     },
     'social_media_accounts': [
         {
             'label': 'Github',
-            'to': 'https://github.com/romanizm',
+            'to': 'https://github.com/Mustifix',
             'icon': BsGithub,
         },
         {
-            'label': 'Discord',
-            'to': 'https://discord.com/341585045397438464',
+            'label': 'Discord Users',
+            'to': 'https://discord.com/users/1016336509965705296',
             'icon': BsDiscord,
         },
         {
             'label': 'Instagram',
-            'to': 'https://instagram.com/romanbabba',
+            'to': 'https://instagram.com/mustifix_',
             'icon': BsInstagram,
         },
         {
-            'label': 'Steam',
-            'to': 'https://steamcommunity.com/id/tolga_saritas/',
-            'icon': BsSteam,
+            'label': 'Discord Server',
+            'to': 'https://discord.gg/ZetrxCda7J',
+            'icon': BsDiscord,
         }
     ],
     'techs': [

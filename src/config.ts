@@ -32,6 +32,11 @@ export default {
             'label': 'Discord Server',
             'to': 'https://discord.gg/ZetrxCda7J',
             'icon': BsDiscord,
+        },
+        {
+            'label': 'Discord Uptime',
+            'to': 'https://discord.gg/QhYtameqYC',
+            'icon': BsDiscord,
         }
     ],
     'techs': [

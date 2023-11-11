@@ -73,21 +73,21 @@ const Home = () => {
                     </div>
                     <div className='avatar'>
                     {discord ? (
-                        <div className={"w-36 rounded-full mb-4 md:mb-0 ring ring-primary ring-offset-base-100 ring-offset-2"}>
-                                <img className='rounded-full hover:opacity-75 transition duration-700' src={`https://cdn.discordapp.com/avatars/${discord.data['discord_user'].id}/${discord.data['discord_user'].avatar}`} alt='avatar' />
-                                <div className="absolute bottom-1 bg-[#0d0d10] rounded-full right-1 w-10 h-10 flex items-center justify-center">
-                                <div className="w-full h-full relative flex items-center justify-center">
-                                    <div className={"animate-ping w-6 h-6 rounded-full " + (discord.data['discord_status'] == 'dnd' ? 'bg-red-500' : discord.data['discord_status'] == 'idle' ? 'bg-yellow-500' : discord.data['discord_status'] == 'online' ? 'bg-green-500' : 'bg-zinc-600')} />
-                                    <div className={"absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full " + (discord.data['discord_status'] == 'dnd' ? 'bg-red-500' : discord.data['discord_status'] == 'idle' ? 'bg-yellow-500' : discord.data['discord_status'] == 'online' ? 'bg-green-500' : 'bg-zinc-600')} />
-                                </div>
-                     </div>
-                        </div>
-                        ): (
-                            <div className={"w-36 rounded-full mb-4 md:mb-0 ring ring-primary ring-offset-base-100 ring-offset-2"}>
-                                <img className='rounded-full hover:opacity-75 transition duration-700' src={'https://media.tenor.com/IHdlTRsmcS4AAAAS/404.gif'} alt='avatar' />
-                            </div>
-                        )}
-                    </div>
+ <div className={"w-36 rounded-full mb-4 md:mb-0 ring ring-primary ring-offset-base-100 ring-offset-2"}>
+ <img className='rounded-full hover:opacity-75 transition duration-700' src={`https://cdn.discordapp.com/avatars/${discord.data['discord_user'].id}/${discord.data['discord_user'].avatar}`} alt='avatar' />
+ <div className="absolute bottom-1 bg-[#0d0d10] rounded-full right-1 w-10 h-10 flex items-center justify-center">
+ <div className="w-full h-full relative flex items-center justify-center">
+     <div className={"animate-ping w-6 h-6 rounded-full " + (discord.data['discord_status'] == 'dnd' ? 'bg-red-500' : discord.data['discord_status'] == 'idle' ? 'bg-yellow-500' : discord.data['discord_status'] == 'online' ? 'bg-green-500' : 'bg-zinc-600')} />
+     <div className={"absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full " + (discord.data['discord_status'] == 'dnd' ? 'bg-red-500' : discord.data['discord_status'] == 'idle' ? 'bg-yellow-500' : discord.data['discord_status'] == 'online' ? 'bg-green-500' : 'bg-zinc-600')} />
+ </div>
+</div>
+</div>
+): (
+<div className={"w-36 rounded-full mb-4 md:mb-0 ring ring-primary ring-offset-base-100 ring-offset-2"}>
+ <img className='rounded-full hover:opacity-75 transition duration-700' src={'https://media.tenor.com/IHdlTRsmcS4AAAAS/404.gif'} alt='avatar' />
+</div>
+)}
+</div>
                 </div>
                 {/* Contact */}
                 <div className='container mx-auto pb-8 w-11/12 sm:pb-10 sm:w-9/12 md:w-7/12'>

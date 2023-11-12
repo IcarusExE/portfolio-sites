@@ -1,4 +1,5 @@
-# romanwashere.xyz
-This open source project is my active website built using React, Vite and Tailwindcss
+# mustifixwashere.vercel.app
 
-> Designer and coding: @romanwashere & @suleywman
+This open source project is my active website built using React, Vite and Tailwindcss.
+
+> Designer and coding: @mustifix

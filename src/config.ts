@@ -7,37 +7,28 @@ import { TbBrandNextjs } from 'react-icons/tb';
 
 export default {
     'github': {
-        'username': 'Mustifix'
+        'username': 'Icarus'
     },
     'discord': {
-        'id': '1016336509965705296'
+        'id': '839085634370666517'
     },
     'social_media_accounts': [
         {
             'label': 'Github',
-            'to': 'https://github.com/Mustifix',
+            'to': 'https://https://github.com/IcarusExE',
             'icon': BsGithub,
         },
         {
             'label': 'Discord Users',
-            'to': 'https://discord.com/users/1016336509965705296',
+            'to': 'https://discord.com/users/839085634370666517',
             'icon': BsDiscord,
         },
         {
             'label': 'Instagram',
-            'to': 'https://instagram.com/mustifix_',
+            'to': 'https://instagram.com/bimposetikeno',
             'icon': BsInstagram,
         },
-        {
-            'label': 'Discord Server',
-            'to': 'https://discord.gg/ZetrxCda7J',
-            'icon': BsDiscord,
-        },
-        {
-            'label': 'Discord Uptime',
-            'to': 'https://discord.gg/QhYtameqYC',
-            'icon': BsDiscord,
-        }
+
     ],
     'techs': [
         {
